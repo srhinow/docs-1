@@ -182,6 +182,7 @@ Each field can be validated against a regular expression.
 | placeholder        | Placeholder (`string`)        | Displays a placeholder for the respective field.    
 | isHexColor         | true/false (`bool`)              | Defines the input as being a color definition in Hex notation. Invalid characters will automatically be removed. |
 | metaFields         | `metaWizard` fields (`array`) | Defines the available fields for the `metaWizard` input type.
+| nullIfEmpty        | true/false (`bool`)   | saves the field in the database as null if it is empty
 
 {{% notice warning %}}
 Using the `encrypt` option is deprecated and its internal implementation relies 
