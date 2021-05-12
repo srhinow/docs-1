@@ -171,7 +171,10 @@ Each field can be validated against a regular expression.
 | doNotCopy          | true/false (`bool`)           | If true the current field will not be duplicated if the record is duplicated.                                                                                            |
 | hideInput          | true/false (`bool`)           | If true the field value will be hidden (it is still visible in the page source though!).                                                                                 |
 | doNotShow          | true/false (`bool`)           | If true the current field will not be shown in "edit all" or "show details" mode.                                                                                        |
-| isBoolean          | true/false (`bool`)           | Indicates that a particular field is boolean.                                                                                                                            |
+| isBoolean          | true/false (`bool`)           | Indicates that a particular field is boolean.                                                                                                                            
+|
+| nullIfEmpty        | true/false (`bool`)          | set entity-Field = null if this field empty
+|
 | isAssociative      | true/false (`boolean`)           | Indicates that an array of options is indeed an associative array. Example of an ambiguous array of options: `['0' => 'Zero', '1' => 'One']`.                         |
 | disabled           | true/false (`bool`)           | Disables the field (not supported by all field types).                                                                                                                   |
 | readonly           | true/false (`bool`)           | Makes the field read only (not supported by all field types).                                                                                                            |
